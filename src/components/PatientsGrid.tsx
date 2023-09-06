@@ -6,7 +6,7 @@ import 'ag-grid-community/styles/ag-theme-alpine.css';
 import { PatientGridProps } from '../types/PatientData';
 
 const columns = [
-    { field: 'ID', headerName: 'ID', width: 100, editable: false, sortable: true },
+    { field: 'ID', headerName: 'ID', width: 60, editable: false, sortable: true },
     { field: 'SURNAME', headerName: 'Surname', width: 150, editable: true, sortable: false },
     { field: 'OTHERNAMES', headerName: 'Other Names', width: 150, editable: true, sortable: false },
 ];
