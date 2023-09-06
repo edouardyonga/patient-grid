@@ -52,7 +52,7 @@ const PatientGrid: React.FC<PatientGridProps> = ({ patientData }) => {
                     />
                 ))}
             </div>
-            <div className="ag-theme-alpine mx-auto" style={{ height: 400, maxWidth: '30%' }}>
+            <div className="ag-theme-alpine mx-auto" style={{ height: 400, maxWidth: '370px' }}>
                 <AgGridReact
                     rowData={patientData}
                     columnDefs={gridColumns.filter((col) => col.visible) as any}
