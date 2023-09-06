@@ -4,7 +4,7 @@ import patientData from './patients.json';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ margin: "25px" }}>
       <h1>Patient Grid</h1>
       <PatientGrid patientData={patientData.result.value[0]} />
     </div>
